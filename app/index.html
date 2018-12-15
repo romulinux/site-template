@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="parent">
+    <div class="upper"></div>
+    <div class="sibling">
+      <nav class="sibling__nav">
+        <a href="#sibling__item-1" class="sibling__nav-item">item-1</a>
+        <a href="#sibling__item-2" class="sibling__nav-item">item-2</a>
+        <a href="#sibling__item-3" class="sibling__nav-item">item-3</a>
+        <a href="#sibling__item-4" class="sibling__nav-item">item-4</a>
+        <a href="#sibling__item-5" class="sibling__nav-item">item-5</a>
+        <a href="#sibling__item-6" class="sibling__nav-item">item-6</a>
+        <a href="#sibling__item-7" class="sibling__nav-item">item-7</a>
+        <a href="#sibling__item-8" class="sibling__nav-item">item-8</a>
+      </nav>
+      <div class="sibling__container">
+        <div class="sibling__container-item" id="sibling__item-1">container-1</div>
+        <div class="sibling__container-item" id="sibling__item-2">container-2</div>
+        <div class="sibling__container-item" id="sibling__item-3">container-3</div>
+        <div class="sibling__container-item" id="sibling__item-4">container-4</div>
+        <div class="sibling__container-item" id="sibling__item-5">container-5</div>
+        <div class="sibling__container-item" id="sibling__item-6">container-6</div>
+        <div class="sibling__container-item" id="sibling__item-7">container-7</div>
+        <div class="sibling__container-item" id="sibling__item-8">container-8</div>
+      </div>
+    </div>
+    <div class="child">
+      <div class="child__form">
+        <fieldset class="child__fieldset">
+          <div class="child__title">Data Form</div>
+          <label for="name" class="child__label"></label>
+          <input id="name" name="name" type="text" class="child__input" placeholder="name" required />
+          <label for="email" class="child__label"></label>
+          <input id="email" name="email" type="email" class="child__input" placeholder="email" required />
+          <label for="phone" class="child__label"></label>
+          <input id="phone" name="phone" type="text" class="child__input" placeholder="phone" required />
+          <label for="network" class="child__label">network</label>
+          <select id="network" name="network" class="child__input" required>
+            <option value="select ... " class="child__input--option">select ... </option>
+            <option value="facebook" class="child__input--option">facebook</option>
+            <option value="google" class="child__input--option">google</option>
+            <option value="instagram" class="child__input--option">instagram</option>
+            <option value="whatsapp" class="child__input--option">whatsapp</option>
+            <option value="other" class="child__input--option">other</option>
+          </select>
+          <input id="submit" name="submit" type="submit" class="child__input child__input--submit" placeholder="submit" required />
+        </fieldset>
+      </div>
+    </div>
+    <div class="lower"></div>
+  </div>
+<script type="text/javascript"  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
